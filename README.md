@@ -1,4 +1,6 @@
-# scraping Wildberries site
+# scraping Wildberries site for Brandquad
+
+# Python Junior Developer test case
 
 scraping category "Сноубутсы женские" in Moscow:
 

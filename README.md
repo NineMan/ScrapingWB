@@ -11,4 +11,5 @@ $ pip install -r requirements.txt
 $ scrapy crawl wild -o output.json
 
 Result:
+
 cat output.json

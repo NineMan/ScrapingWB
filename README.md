@@ -6,7 +6,7 @@ scraping category "Сноубутсы женские" in Moscow:
 
 https://www.wildberries.ru/catalog/obuv/zhenskaya/dutiki-i-snoubutsy/snoubutsy
 
-# Tested with Python 3.6 via virtual environment:
+Tested with Python 3.6.9 and Scrapy 2.1.0 via virtual environment:
 # Setup
 
 $ python3.6 -m venv venv

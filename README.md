@@ -1,4 +1,9 @@
 # scraping Wildberries site
+
+scraping category "Сноубутсы женские" in Moscow:
+
+https://www.wildberries.ru/catalog/obuv/zhenskaya/dutiki-i-snoubutsy/snoubutsy
+
 # Tested with Python 3.6 via virtual environment:
 # Setup
 

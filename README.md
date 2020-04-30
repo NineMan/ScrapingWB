@@ -1,11 +1,9 @@
-# Scrapy Tutorial Starter
+# scraping Wildberries site
+# Tested with Python 3.6 via virtual environment:
+# Setup
 
-Starter project for scrapy tutorial at https://github.com/harrywang/scrapy-tutorial
-
-## Setup
-Tested with Python 3.6 via virtual environment:
-```shell
 $ python3.6 -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-```
+$ scrapy crawl wild -o output.json
+

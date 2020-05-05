@@ -84,7 +84,10 @@ class WildSpider(scrapy.Spider):
         current = float(current.strip().strip(' ₽').replace(' ', ''))
         price_data['current'] = current
         original = response.css('del.c-text-base::text').get()
-        original = float(original.strip().strip(' ₽').replace(' ', ''))
+        if original:
+            original = float(original.strip().strip(' ₽').replace(' ', ''))
+        else:
+            original = current
         price_data['original'] = original
         sale_tag = 'Скидка {} %'.format(int((current / original) * 100))
         price_data['sale_tag'] = sale_tag
